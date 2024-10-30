@@ -158,4 +158,8 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollAnimateElements.forEach(element => {
         observer.observe(element);
     });
+
 });
+
+
+
