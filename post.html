@@ -36,7 +36,7 @@
                 <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp; Home</a></li>
                 <li><a href="about.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; About Us</a></li>
                 <li><a href="apply.html"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Apply</a></li>
-                <li></i><a href="post.html"><i class="fa fa-edit" aria-hidden="true"></i>&nbsp; Posting</a></li>
+                <li></i><a href="post.html" class="active"><i class="fa fa-edit" aria-hidden="true"></i>&nbsp; Posting</a></li>
                 <li></i><a href="faq.html"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp; FAQs</a></li>
 
             </ul>
@@ -145,8 +145,8 @@
 
                             <br>
                             <div class="mt-5">
-                                <button class="btn btn-primary w-100 " type="button" onclick="apply_submit()" >Apply
-                                    Now</button>
+                                <a class="btn btn-primary w-100 " href="post_check.html" type="button" >Apply
+                                    Now</a>
                             </div>
                         </div>
                     </form>
@@ -225,13 +225,7 @@
 
 
         <script src="script.js"></script>
-        <script>
-            function apply_submit() {
-                console.log("apply submit");
-                window.location.href = "job-detail.html";
-
-            }
-        </script>
+        
 </body>
 
 </html>
