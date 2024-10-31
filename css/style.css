@@ -366,7 +366,10 @@
     letter-spacing: 1px;
     box-shadow: none;
 }
-
+.option_group  label{
+margin-right: 1em;
+margin-top: 1em;
+}
 .footer .form-control {
     border-color: rgba(255,255,255,0.5);
 }
@@ -391,4 +394,33 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+#search {
+    width:90%;
+}
+
+.searchicon {
+    color:#5CB85C;
+}
+
+.items-collection{
+    margin:20px 0 0 0;
+}
+.items-collection label.btn-default.active{
+    background-color:#007ba7;
+    color:#FFF;
+}
+.items-collection label.btn-default{
+    width:90%;
+    border:1px solid #305891;
+    margin:5px; 
+    border-radius: 17px;
+    color: #305891;
+}
+.items-collection label .itemcontent{
+    width:100%;
+}
+.items-collection .btn-group{
+    width:90%
 }

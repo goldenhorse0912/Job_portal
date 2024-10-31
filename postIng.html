@@ -36,8 +36,7 @@
                 <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>&nbsp; Home</a></li>
                 <li><a href="about.html"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; About Us</a></li>
                 <li><a href="apply.html"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Apply</a></li>
-                <li></i><a href="posting.html" class="active"><i class="fa fa-edit" aria-hidden="true"></i>&nbsp;
-                        Posting</a></li>
+                <li></i><a href="posting.html" class="active"><i class="fa fa-edit" aria-hidden="true"></i>&nbsp; Posting</a></li>
                 <li></i><a href="faq.html"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp; FAQs</a></li>
 
             </ul>
@@ -58,8 +57,8 @@
                     <form>
 
                         <!-- User Info -->
-                        <div class="row g-3 mb-5">
-                            <h4 class="mb-4">User Info</h4>
+                        <div class="row g-3 mb-4">
+                            <h4 class="mb-4">Profile</h4>
                             <div class="col-12 col-sm-6">
                                 <b>Your Name</b>
                                 <input type="text" class="form-control " placeholder="Full name">
@@ -68,72 +67,92 @@
                                 <b>Your Email</b>
                                 <input type="email" class="form-control" placeholder="temch.yara77@gmail.com">
                             </div>
+                            <div class="col-12 col-sm-6">
+                                <b>Phone Number</b>
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
                         </div>
 
                         <!-- company Info  -->
 
                         <div class="row g-3 mb-3">
-                            <h4 class="mb-4">Company Details</h4>
-                            <div class="col-12 col-sm-6">
-                                <b>Company Name</b>
-                                <input type="text" class="form-control" placeholder="">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <b>Industries</b>
-                                <select class="form-control" id="sel1">
-                                    <option>Select Type</option>
-                                    <option>IT Software</option>
-                                    <option>Marketing</option>
-                                    <option>Solcial</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <b>Location</b>
-                                <input type="location" class="form-control" placeholder="">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <b>Image</b>
+                            <h4 class="mb-4">CV</h4>
+                            <div class="col-12 col-sm-12">
+                                <b > If you have any additional documents (e.g. Portfolio, Certificates, etc.), you can attach them here.</b>
                                 <input type="file" class="form-control bg-white">
+                                <label class="mt-1">The maximum file size is 30MB. File extensions of .bat, .exe, etc are not allowed. Up to 4 files can be uploaded</label>
                             </div>
                         </div>
                         <!-- Job Info  -->
 
                         <div class="row g-3">
-                            <h4 class="mb-4">Job Info</h4>
+                            <h4 class="mb-4">Tell us more about yours</h4>
 
                             <div class="col-12 col-sm-6">
-                                <b>Job Title</b>
-                                <input type="text" class="form-control" placeholder="e.g. Senior Product Designer">
+                                <b>Are you above the age of 18?</b>
+                                <div class="mt-1">
+                                    <label class="radio-inline"><input type="radio" name="optradio" checked> Yes</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio" > No</label>
+                                </div>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <b>Job Type</b>
-                                <select class="form-control" id="sel2">
-                                    <option>Select Type</option>
-                                    <option>Web & Mobile Design</option>
-                                    <option>Application Develop</option>
-                                    <option>Game Develop</option>
+                                <b>Are you able to pass a background check?</b>
+                                <div class="option_group">
+                                    <label class="radio-inline"><input type="radio" name="optradio1" > Yes</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio1" checked> No</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <b>Do you have Windows 10 or higher?</b>
+                                <div class="option_group">
+                                    <label class="radio-inline"><input type="radio" name="optradio2" checked> Yes</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio2" > No</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <b>Do you have Ethernet access?</b>
+                                <div class="option_group">
+                                    <label class="radio-inline "><input type="radio" name="optradio3" checked> Yes</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio3" > No</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12">
+                                <b>Company size</b>
+                                <div class="option_group">
+                                    <label class="radio-inline"><input type="radio" name="optradio4" > 100+</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio4" > 51~100</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio4" > 11~50</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio4" > 6~10</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio4" > 2~5</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio4" checked> Just me</label>
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-sm-4">
+                                <b>Language</b>
+                                <select class="form-control" id="sel1">
+                                    <option>English</option>
+                                    <option>Ukrainian</option>
+                                    <option>German</option>
+                                    <option>French</option>
                                 </select>
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <b>Job Role</b>
-                                <input type="text" class="form-control" placeholder="e.g. Product Designer">
+                            <div class="col-12 col-sm-8 ">
+                                <b></b>
+                                <div class="option_group text-end">
+                                <label class="radio-inline"><input type="radio" name="optradio4" checked> Native</label>
+                                <label class="radio-inline"><input type="radio" name="optradio4" > Business Level</label>
+                                <label class="radio-inline"><input type="radio" name="optradio4" > Daily Conversation</label>
+                                <label class="radio-inline"><input type="radio" name="optradio4" > Beginner</label>
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <b>Salary Rang</b>
-                                <input type="text" class="form-control " placeholder="e.g. $10k - $20k">
-                            </div>
-                            <div class="col-12">
-                                <b>Job Description</b>
-                                <textarea class="form-control" rows="5" placeholder="Write your text..."></textarea>
                             </div>
                             <div class="col-12">
-                                <b>Responsibility</b>
+                                <b>About You</b>
                                 <textarea class="form-control" rows="5" placeholder="Write your text..."></textarea>
                             </div>
-                            <div class="col-12">
-                                <b>Benefits</b>
-                                <textarea class="form-control" rows="5" placeholder="Write your text..."></textarea>
-                            </div>
+                            
                             <div class="col-12 ">
                                 <b>Pro</b>
                                 <br>
@@ -146,7 +165,7 @@
 
                             <br>
                             <div class="mt-5">
-                                <a class="btn btn-primary w-100 " href="post_check.html" type="button">Apply
+                                <a class="btn btn-primary w-100 " href="post_check.html" type="button" >Apply
                                     Now</a>
                             </div>
                         </div>
@@ -226,7 +245,7 @@
 
 
         <script src="script.js"></script>
-
+        
 </body>
 
 </html>
