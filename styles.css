@@ -704,15 +704,6 @@ main {
 }
 
 
-.contact-form {
-    background-color: transparent;
-    padding: 2rem;
-    color: #fff;
-    border-radius: 8px;
-    gap: 2rem;
-}
-
-
 .contact img {
     flex: 1;
     width: 300px;
@@ -729,12 +720,14 @@ main {
 .contact-form {
     flex: 1;
     padding: 2rem;
-    color: #fff;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: transparent;
+    gap: 2rem;
+
 }
 
 
@@ -1305,4 +1298,78 @@ footer {
     .footer-content {
         flex-direction: column;
     }
+}
+
+
+.w-full {
+    width: 100%;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row-input-item {
+    width: 48%;
+}
+.row-input-toggle {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .row-input-item {
+        width: 100%;
+        
+    }
+}
+
+.row-input-item h4{
+    text-align: left;
+}
+.row-input-item label{
+    display: inline;
+    margin-right: 10px;
+}
+
+.radio-title{
+    margin-bottom: 20px;
+}
+.onboarding-form{
+    background-color: #EBECF5;
+    padding: 50px;
+}
+
+.contact-form input[type='radio'] {
+    width: fit-content;
+    margin-right: 5px;
+}
+
+.contact-form span {
+    margin-right: 20px;
+}
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+}
+.file-upload input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+.btn_upload {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #BBBBBB;
+    color: #666666;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
